@@ -1,0 +1,38 @@
+.data-card {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.data-card img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.data-card h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.data-card p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.data-card .data-card-infos {
+  padding: 16px;
+}
+
+.data-icons {
+  /* background-color: #A3DC9A; */
+  background-color: #588157;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
