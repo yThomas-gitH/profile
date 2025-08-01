@@ -1,0 +1,32 @@
+.right-panel {
+  width: 65%;
+}
+
+.hobbies-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+.hobby-card {
+  margin: 20px;
+  padding: 10%;
+  text-align: center;
+  background-size: cover;
+  height: 250px;
+  border-radius: 20px;
+  color: black;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.back-bottom {
+  background-position: bottom;
+}
+
+.back-top {
+  background-position: top;
+}
+
+.back-center {
+  background-position: center;
+}
