@@ -9,25 +9,49 @@
 }
 
 .hobby-card {
+  position: relative;
   margin: 20px;
   padding: 10%;
   text-align: center;
   background-size: cover;
   height: 250px;
   border-radius: 20px;
-  color: black;
+  color: white;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
   transition: 0.4s ease-out;
-  opacity: 1;
+  overflow: hidden;
 }
 
 .hobby-card .info {
   position: relative;
-  z-index: 3;
-  color: white;
+  z-index: 2;
   opacity: 0;
   transform: translateY(30px);
   transition: 0.5s;
+}
+
+.hobby-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.3); /* default dim layer */
+  opacity: 0;
+  transition: 0.4s ease-out;
+  z-index: 1;
+}
+
+.hobby-card:hover::before {
+  opacity: 1; /* darkens background on hover */
+}
+
+.hobby-card:hover .info {
+  opacity: 1;
+  color: white;
+  transform: translateY(0px);
 }
 
 .back-bottom {
@@ -41,6 +65,16 @@
 .back-center {
   background-position: center;
 }
+
+.hobby-card:hover {
+  transform: translateY(20px);
+  /* filter: brightness(70%); */
+}
+
+/* .hobby-card::before {
+  transition: 0.5s;
+  opacity: 0;
+} */
 
 .exed-section {
   /* border-radius: 20px; */
@@ -60,25 +94,6 @@
   transition: 0.4s ease-out;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
 } */
-
-.hobby-card:hover {
-  transform: translateY(20px);
-  filter: brightness(70%);
-}
-
-.hobby-card:hover::before {
-  opacity: 1;
-}
-
-.hobby-card:hover .info {
-  opacity: 1;
-  transform: translateY(0px);
-}
-
-.hobby-card::before {
-  transition: 0.5s;
-  opacity: 0;
-}
 
 /* .hobby-card::before {
   content: "";
