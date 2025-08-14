@@ -6,28 +6,37 @@
 }
 
 #profile-img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  border: 3px solid #7CA982;
   padding: 5px;
   width: 50%;
   border-radius: 50%;
 }
 
 .card {
-  background: white;
-  padding: 3%;
+  background: #F4F6F3;
+  padding: 2%;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,.5);
   margin:7px;
 }
 
 .bigger-icons {
-  font-size: 30px;
+  font-size: 40px;
   padding-inline-start: 0px;
+  margin: 30px;
 }
 
 .sm-icons {
   padding-right: 10px;
+  transition: all 250ms;
+  text-decoration: none;
+  color: #C97B63;
+}
+
+.sm-icons:hover {
+  transform: scale(1.05) rotate(-2deg);
+  text-decoration: none;
+  color: #E8B04F;
 }
 
 .display-inline > li {
@@ -37,7 +46,7 @@
 }
 
 #fill-button {
-  background-color:#588157;
+  background-color:#C97B63;
   border-radius: 6px;
   padding: 1%;
   color: white;

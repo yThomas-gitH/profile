@@ -1,0 +1,62 @@
+.card-project-images {
+  overflow: hidden;
+  /* height: 300px; */
+  align-items: center;
+
+}
+
+.card-project-images img {
+  height: 100%;
+  width: 300px;
+  object-fit: cover;
+  margin: 4px;
+}
+
+.card-project h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.card-project p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-project .card-project-infos {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.card-project .card-project-images {
+  width: 80%;
+}
+
+.project-content {
+  display: flex;
+  gap: 20px; /* spacing between text and video */
+  align-items: flex-start; /* aligns items to the top */
+}
+
+.project-description {
+  flex: 1; /* text takes remaining space */
+}
+
+iframe {
+  flex-shrink: 0; /* prevents iframe from shrinking */
+  transition: 250ms ease-out;
+  border-radius: 20px;
+}
+
+iframe:hover {
+    box-shadow: 0 0 20px rgba(47,93,80,0.6);
+}
