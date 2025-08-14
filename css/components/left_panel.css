@@ -13,20 +13,25 @@
 }
 
 .card {
-  background: white;
-  padding: 3%;
+  background: #F4F6F3;
+  padding: 2%;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,.5);
   margin:7px;
 }
 
 .bigger-icons {
-  font-size: 30px;
+  font-size: 40px;
   padding-inline-start: 0px;
 }
 
 .sm-icons {
   padding-right: 10px;
+  transition: all 250ms;
+}
+
+.sm-icons:hover {
+  transform: scale(1.05) rotate(-2deg);
 }
 
 .display-inline > li {
@@ -36,7 +41,7 @@
 }
 
 #fill-button {
-  background-color:#588157;
+  background-color:#C97B63;
   border-radius: 6px;
   padding: 1%;
   color: white;

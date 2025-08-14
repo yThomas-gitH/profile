@@ -1,15 +1,17 @@
 body {
-    background-color:#dad7cd;
+    /* background-color:#dad7cd; */
+    background-color:#7CA982;
     /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     font-family: "Baumans", cursive;
-    color:rgb(1, 1, 12);
+    color:#2B2B2B;
     font-size: 17px;
     line-height: 23px;
     text-align: justify;
 }
 
 h1, h2, h3, h4 {
-    color:#344e41;
+    /* color:#344e41; */
+    color:#2F5D50;
     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-family: "Staatliches", cursive;
     letter-spacing: 0.1rem;
@@ -17,7 +19,8 @@ h1, h2, h3, h4 {
 
 a {
   text-decoration: none;
-  color:#588157;
+  /* color:#588157; */
+  color: #C97B63;
 }
 
 a:hover {
