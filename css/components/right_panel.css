@@ -78,9 +78,24 @@
 
 .exed-section {
   /* border-radius: 20px; */
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  padding: 20px;
+  box-shadow: 0 0 20px rgba(47,93,80,0.3);
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  /* background-color:#7CA982; */
 }
+
+/* .exed-section h4 {
+  color: #F4F6F3;
+}
+
+.exed-section p {
+  color: #F4F6F3;
+}
+
+.exed-section li {
+  color: #F4F6F3;
+} */
 
 /* .hobby-card {
   width: 280px;

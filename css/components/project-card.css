@@ -53,4 +53,10 @@
 
 iframe {
   flex-shrink: 0; /* prevents iframe from shrinking */
+  transition: 250ms ease-out;
+  border-radius: 20px;
+}
+
+iframe:hover {
+    box-shadow: 0 0 20px rgba(47,93,80,0.6);
 }
