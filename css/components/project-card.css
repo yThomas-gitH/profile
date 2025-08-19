@@ -26,4 +26,10 @@ iframe:hover {
   .project-description {
     margin-bottom: 10px;
   }
+
+  .project-content iframe {
+  width: 90%;
+  margin: auto;
+  display: block;
+  }
 }

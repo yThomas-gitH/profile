@@ -11,18 +11,10 @@
   border-radius: 50%;
 }
 
-.card {
-  background: #F4F6F3;
-  padding: 2%;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.5);
-  margin:7px;
-}
-
 .bigger-icons {
   font-size: 40px;
   padding-inline-start: 0px;
-  margin: 30px;
+  margin: 15px;
 }
 
 .sm-icons {
@@ -51,10 +43,6 @@
   color: white;
 }
 
-/* .container {
-  width: 100vw;
-} */
-
 @media (max-width: 750px) {
   .left-panel {
   width: 90%;
@@ -63,21 +51,3 @@
   margin: 7px auto;
   }
 }
-
-/* @media (max-width: 960px) {
-  .container {
-    width: 700px;
-  }
-}
-
-@media (max-width: 720px) {
-  .container {
-    width: 500px;
-  }
-}
-
-@media (max-width: 540px) {
-  .container {
-    width: 300px;
-  }
-} */
