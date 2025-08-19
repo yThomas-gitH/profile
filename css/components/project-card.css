@@ -28,6 +28,8 @@ iframe:hover {
   }
 
   .project-content iframe {
-  width: 100%;
+  width: 90%;
+  margin: auto;
+  display: block;
   }
 }

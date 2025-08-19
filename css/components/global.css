@@ -1,19 +1,12 @@
 body {
-    /* background-color:#dad7cd; */
     background-color:#7CA982;
-    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    /* font-family: "Baumans", cursive; */
     font-family: "Lexend Deca", Helvetica, "sans-serif";
     color:#2B2B2B;
-    font-size: 17px;
-    line-height: 23px;
     text-align: justify;
 }
 
 h1, h2, h3, h4 {
-    /* color:#344e41; */
     color:#2F5D50;
-    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-family: "Staatliches", cursive;
     letter-spacing: 0.1rem;
 }
@@ -23,6 +16,14 @@ h1 {
 
 a {
   text-decoration: none;
+}
+
+.card {
+  background: #F4F6F3;
+  padding: 2% 3%;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.5);
+  margin:7px;
 }
 
 .exed-section p a {
@@ -37,10 +38,6 @@ a {
   box-shadow: inset 500px 0 0 0 #C97B63;
   color: #F4F6F3;
 }
-
-/* a:hover {
-  text-decoration: underline;
-} */
 
 .flexbox {
   display: flex;
@@ -57,7 +54,17 @@ a {
 }
 
 @media (max-width: 750px) {
+
+  .body {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
   .container {
     display: block;
+  }
+
+  .card {
+  padding: 5%;
   }
 }
