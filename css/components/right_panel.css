@@ -68,16 +68,13 @@
 
 .hobby-card:hover {
   transform: translateY(20px);
-  /* filter: brightness(70%); */
 }
 
 .exed-section {
-  /* border-radius: 20px; */
   box-shadow: 0 0 20px rgba(47,93,80,0.3);
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 10px;
-  /* background-color:#7CA982; */
 }
 
 @media (max-width: 750px) {
