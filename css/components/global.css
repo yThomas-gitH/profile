@@ -47,6 +47,10 @@ a {
 
 .align-center {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centre horizontalement */
+  gap: 10px;             /* petit espace entre les éléments */
 }
 
 .text-deco-none {

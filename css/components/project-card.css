@@ -33,6 +33,19 @@ iframe:hover {
   width: 100%;
 }
 
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-logo {
+  width: 15%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+
 @media (max-width: 750px) {
   .project-content {
   display: block;
